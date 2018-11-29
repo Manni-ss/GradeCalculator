@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+    <title>Grade Calculator</title>
+</head>
+<body onload="createTable()" class="stuff">
+
+<div id="title">FINAL GRADE CALCULATOR</div>
+<div id="container">
+
+    <div id="tableContainer"></div>
+    <div id="categoryName">Category Name:</div>
+    <input type="text" placeholder = "Ex: Classwork" id="category">
+    <button onclick="addRow()" class="btn btn-default" id="rowBtn">Add Row</button>
+</div>
+
+
+<button onclick="calculateGrade()" class="btn btn-default">Submit</button>
+<div id="currentGrade"></div>
+
+<table>
+    <tr>
+        <td>Grade Wanted</td>
+        <td>Final Grade Weight</td>
+    </tr>
+    <tr>
+        <td><input type="text" id="gradeWanted" placeholder="Ex: 90"></td>
+        <td><input type="text" id="finalGradeWeight" placeholder="Ex: 10"></td>
+    </tr>
+</table>
+<button onclick="finalGradeNeeded()">Determine Final Grade Needed</button>
+<div id="gradeNeeded"></div>
+</body>
+</html>

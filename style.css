@@ -1,0 +1,47 @@
+body {
+    font-family: "Times New Roman";
+    background-color: pink;
+}
+
+#title {
+    font-size: large;
+    text-align: center;
+}
+.stuff {
+    width: 25%;
+    height: 50%;
+    position: relative;
+    top: 5%;
+    margin: auto;
+
+}
+#primary {
+    border: 2px;
+    color: black;
+}
+
+#gradeNeeded {
+    font-size: 24px;
+}
+
+#container {
+    background-color: pink;
+}
+
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.gray {
+    background-color: gray;
+}
+
+#currentGrade {
+    font-family: "Times New Roman";
+    font-size: 24px;
+}
